@@ -6,7 +6,7 @@
  * note that SVG (x, y) corresponds to (long, lat)
  */
 
-L.Curve = L.Path.extend({
+L.Curve = L.Polyline.extend({
 	options: {
 	},
 	
